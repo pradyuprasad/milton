@@ -1,18 +1,13 @@
-Milton is a tool that makes it extremely easy to find economic data, analyse it, and present it the way you want. 
-
-# What you can do with this
-- Search for all the datasets that match your query
-- Ask the AI for questions and get hallucination-free answers
-- Perform complex statistical procedures from natural languages
-- Make pretty charts just by asking
-- Make it write macroeconomic research reports
+Milton is an AI agent for macroeconomic research. It can do the following
+- Search for the right dataset(s) for your use case
+- Write code to perform data analysis and get hallucation-free answers
+- Perform complex statistical tasks from natural language
+- Graph pretty charts
+- Write reports
 
 # Roadmap
-- [x] Write feature to search in FRED
-- [x] Write feature to analyse data for one database only
-- [x] Write feature to connect the above
-- [x] Write feature to make multi-step plans for analysing multiple datasets
-- [x] Write feature to use plans to analyse multiple datasets
-- [ ] Write feature to graph data as per user requirements
-- [ ] Write frontend to show all of this
-
+## Stable beta release. (Target: 31 August 2024)
+See [issues](https://github.com/pradyuprasad/milton/issues) for clearer description of these
+- Implement Search Feature. Issue #4
+- Implement Code-writing module. Issues #5
+- Implement Graphing feature. Issue #6
