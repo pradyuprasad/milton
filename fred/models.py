@@ -102,3 +102,13 @@ class InstructionsList(BaseModel):
 class CodeBlock(BaseModel):
     thoughts: str
     code: str
+
+
+class DateValuePair(BaseModel):
+    date: str
+    value: float
+
+class Chart(BaseModel):
+    title: str
+    dataList: List[DateValuePair]
+    units: str
